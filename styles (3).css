@@ -1,0 +1,143 @@
+body {
+	background-color: #ffffffd3;
+	font-family: 'Fira Code', monospace;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1, h2 {
+	color: rgb(255, 255, 255)fff;
+}
+
+.page-container {
+	margin-top: 400px;
+}
+
+.center {
+	text-align: center;
+}
+
+.large-text {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+.subtitle {
+	font-size: 1.5rem;
+}
+
+.small-text {
+	font-size: 0.8rem;
+	margin-top: 1rem;
+}
+
+.profile-image-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.profile-image {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.section {
+	margin-bottom: 3rem;
+}
+
+.section h2 {
+	margin-top: 0;
+	border-bottom: 2px solid #333;
+	padding-bottom: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.achievement-item {
+	display: block;
+	background-color: #333;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	margin-bottom: 0.5rem;
+	border-radius: 25px;
+}
+
+.hobby-images {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.hobby-images img {
+	width: 300px;
+	height: 300px;
+	object-fit: fill;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.resume-button {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	border-radius: 25px;
+	text-decoration: none;
+	margin-top: 2rem;
+	transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+	background-color: #444;
+}
+
+.nav-link {
+	display: inline-block;
+	color: #333;
+	padding: 0.5rem 1rem;
+	border-radius: 25px;
+	text-decoration: none;
+	margin: 0 1rem;
+	transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+	background-color: #eee;
+}
+
+.hobbies-carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hobbies-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.hobbies-carousel-item {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.hobbies-carousel-item:hover {
+    transform: scale(1.1);
+}
+@keyframes hobbies-carousel {
+	0% { left: 0; }
+	100% { left: -200%; }
+}
